@@ -1,0 +1,11 @@
+navsat_transform_node:
+  ros__parameters:
+    frequency: 30.0
+    two_d_mode: true
+    wait_for_datum: false
+    zero_altitude: true
+    publish_filtered_gps: true
+    broadcast_cartesian_transform: true
+
+    use_odometry_yaw: true
+    yaw_offset: 0.0
